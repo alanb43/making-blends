@@ -1,0 +1,62 @@
+Example Input: "Brief example, single & multiple character overlap"
+Ferrets are really super cool.
+But they aren't great at eating dessert.
+I like triking around campus with my dog Mal but he likes scaring squirrels.
+
+Expected Output: 
+Ferrets areally super cool. 
+Buthey aren't greating dessert. 
+I like triking around campus with my dog Mal but he likescaring squirrels. 
+
+
+Example Input 2: "One character overlap"
+Sometimes Mimir my code works and I don't know why.
+Sometimes I know my code shouldn't work, but it still does.
+Sometimes I forget to save my code before I compile and run it.
+
+Expected Output:
+Sometimes Mimir my code works and I don't knowhy.
+Sometimes I know my code shouldn't work, but it still does.
+Sometimes I forgeto save my code before I compile and run it.
+
+
+Example Input 3: "Strictly multiple character overlap"
+Online classes are often more challenging than in-person ones.
+But asynchronous classes give you more regular options to partition your day.
+
+Example Output: 
+Online classes are often more challenging than in-persones. 
+But asynchronous classes give you moregular options to partition your day. 
+
+
+Example Input 4: "More than 2 word merges"
+I really like Haskell, it is a pure functional programming langauge.
+But Python is what tugs so often on my heart when I get a segmentation fault in C++.
+
+Example Output:
+I really like Haskell, it is a pure functional programming langauge.
+But Python is whatugsoften on my heart when I get a segmentation fault in C++.
+
+
+Example Input 5: "Jibberish"
+aaabb cddef effghi hijkkk kllmn n n n o
+1222 67656 478 298364987 6498 98 23 3178
+Punctuation <>?<>.,/.,#$%54362 45^&#$% $%htrd
+onetwothree threefourfive
+
+Example Output: 
+aaabb cddeffghijkkkllmn o
+1222 67656 478 298364987 6498 23178
+Punctuation <>?<>.,/.,#$%54362 45^&#$%htrd
+onetwothreefourfive
+
+
+Example Input 6: "One last test"
+jhijiki ijikidj
+lkjshfg guing daaaa aaaabgh
+carrot otter
+
+Example Output: 
+jhijikidj
+lkjshfguing daaaabgh
+carrotter
