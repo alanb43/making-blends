@@ -7,3 +7,8 @@ often", one could quickly determine what I meant to say.
 This project squeezes words with the same beginning and ending characters on each line together, even across multi-character
 matches, multi-word merges, and extraneous cases such as test case 5 in the test case text file.
 
+Viewing the test-cases.txt file will convey this program's function through various examples if this brief description did not
+do so well enough.
+
+This program has been refactored according to Google Style Guides, something I'm trying to get more comfortable with / better at
+using.
