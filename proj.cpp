@@ -1,7 +1,7 @@
 #include <iostream>
 #include <sstream>
 #include <string> 
-#include <algorithm> // std::min
+#include <algorithm> 
 
 using std::cout, std::cin, std::endl, std::string, std::istringstream;
 
@@ -27,11 +27,11 @@ string Squeeze(string word1, string word2) {
 string Compress(string line) {
   istringstream line_contents(line); 
   string result, word;
-  line_contents >> result; // Storing first word for use in Squeeze
-  while (line_contents >> word) { // compare first word to second
+  line_contents >> result;  // Storing first word for use in Squeeze
+  while (line_contents >> word) {  // compare first word to second
     result = Squeeze(result, word);  // continually reassign first word to be the result of squeeze
   }
-  return result; 
+  return result;
 }
 
 int main() {
