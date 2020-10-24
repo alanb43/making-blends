@@ -10,5 +10,5 @@ matches, multi-word merges, and extraneous cases such as test case 5 in the test
 Viewing the test-cases.txt file will convey this program's function through various examples if this brief description did not
 do so well enough.
 
-This program has been refactored according to [https://google.github.io/styleguide/cppguide.html](Google C++ Style Guide), something I'm trying to get more comfortable with / better at
+This program has been refactored according to (https://google.github.io/styleguide/cppguide.html)[Google C++ Style Guide], something I'm trying to get more comfortable with / better at
 using.
